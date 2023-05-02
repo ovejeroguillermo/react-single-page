@@ -1,0 +1,9 @@
+.about-section {
+  height: 900px;
+}
+
+.about-image img {
+  border-radius: 190px;
+  margin-top: 160px;
+  object-fit: cover;
+}
