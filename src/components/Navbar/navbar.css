@@ -7,22 +7,39 @@
   top: 0;
   text-align: center;
   justify-content: right;
+  position: sticky;
+  z-index: 1;
+}
+
+/* navbar scrool changed color */
+
+.navbar-scroll-color {
+  background-color: #38004c;
 }
 
 .navbar-main ul {
   display: flex;
   margin-right: 10%;
 }
-
 .navbar-main ul li {
   list-style-type: none;
   margin-right: 50px;
   color: white;
   cursor: pointer;
-  padding-top: 4px;
+  padding-top: 7px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .navbar-main ul li:hover {
-  color: yellowgreen;
+  color: yellow;
+}
+
+.nav-item .active {
+  color: yellow;
+}
+
+@media (max-width: 1000px) {
+  .navbar-main {
+    display: none;
+  }
 }
